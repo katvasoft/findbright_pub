@@ -1,0 +1,34 @@
+<nb-card class="feedback-card">
+  <nb-card-header>
+    <div class="space space115" >
+      <h6 class="heading24 text-undefined text-alignment-left text-transform-none">We appreciate your feedback</h6>
+    </div>
+  </nb-card-header>
+
+  <nb-card-body>
+    <div class="space space116" >
+      
+      <nb-form-field class="feedback-txt">
+        <textarea nbInput class="size-xl-medium" class="feedback-txt size-xl-medium" placeholder="Enter Value" type="undefined" shape="rectangle" rows="3" uiValueUpdate="feedbackTxt" status="basic" [ngModel]="value"></textarea>
+      </nb-form-field>
+      
+    </div>
+  </nb-card-body>
+
+  <nb-card-footer>
+    <div class="space space117" >
+      <div class="space space118" >
+        <button nbButton class="save-feedback-btn size-xl-medium" appearance="filled" status="primary">
+          <nb-icon class="icon btn-icon" icon="save"></nb-icon>
+          <span>Save</span>
+        </button>
+      </div>
+      <div class="space space1181" >
+        <button nbButton class="cancel-feed-edit-btn size-xl-medium" appearance="filled" status="warning">
+          <nb-icon class="icon btn-icon" icon="close-outline"></nb-icon>
+          <span>Cancel</span>
+        </button>
+      </div>
+    </div>
+  </nb-card-footer>
+</nb-card>

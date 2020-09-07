@@ -1,0 +1,121 @@
+<nb-card class="promotion-edit-card">
+  <nb-card-header>
+    <div class="space space47" >
+      <h6 class="heading16 text-undefined text-alignment-left text-transform-none">Edit promotion</h6>
+    </div>
+  </nb-card-header>
+
+  <nb-card-body>
+    <div class="space space65" >
+      <div class="space space67" >
+        <nb-checkbox class="promotion-active-checkbox" status="success" uiValueUpdate="promotionActiveCheckbox" [ngModel]="value">{{ label }}</nb-checkbox>
+      </div>
+      <div class="space space671" >
+        <div class="space space68" >
+          <p class="text21 text-undefined text-alignment-left text-transform-none paragraph">Promotion name</p>
+        </div>
+        <div class="space space6811" >
+          <input nbInput class="promotion-name-txt size-xl-medium" placeholder="Promotion name" type="text" shape="rectangle" uiValueUpdate="promotionNameTxt" status="basic" [ngModel]="value1">
+        </div>
+        <div class="space space681" >
+          
+        </div>
+      </div>
+      <div class="space space6712" >
+        <div class="space space69" >
+          <nb-checkbox class="promotion-limit-with-keywords-checkbox" status="success" uiValueUpdate="promotionLimitWithKeywordsCheckbox" [ngModel]="value2">{{ label1 }}</nb-checkbox>
+        </div>
+        <div class="space space691" >
+          
+        </div>
+      </div>
+      <div class="space space6711" >
+        <div class="space space70" >
+          <p class="text22 text-undefined text-alignment-left text-transform-none paragraph">Keywords</p>
+        </div>
+        <div class="space space701" >
+          <input nbInput class="keyword-txt size-xl-medium" placeholder="Keywords separated by comma" type="text" shape="rectangle" uiValueUpdate="keywordTxt" status="basic" [ngModel]="value3">
+        </div>
+      </div>
+      <div class="space space67111" >
+        <div class="space space71" >
+          <p class="text23 text-undefined text-alignment-left text-transform-none paragraph">Time limit</p>
+        </div>
+        <div class="space space711" >
+          <div class="space space72" >
+            
+              <input [nbDatepicker]="datepicker1" nbInput class="date-from-datepicker size-xl-medium" placeholder="Date from" shape="rectangle" uiValueUpdate="dateFromDatepicker" status="basic" [ngModel]="value4 | toDate">
+              <nb-datepicker #datepicker1>
+              </nb-datepicker>
+            
+          </div>
+          <div class="space space721" >
+            <p class="text24 text-undefined text-alignment-left text-transform-none paragraph">-</p>
+          </div>
+          <div class="space space7211" >
+            
+              <input [nbDatepicker]="datepicker2" nbInput class="date-to-datepicker size-xl-medium" placeholder="Date to" shape="rectangle" uiValueUpdate="dateToDatepicker" status="basic" [ngModel]="value5 | toDate">
+              <nb-datepicker #datepicker2>
+              </nb-datepicker>
+            
+          </div>
+        </div>
+      </div>
+      <div class="space space671111" >
+        <span class="text25 text-undefined text-alignment-left text-transform-none subtitle">Content</span>
+      </div>
+      <div class="space space6711111" >
+        <div class="space space73" >
+          <p class="text26 text-undefined text-alignment-left text-transform-none paragraph">Title</p>
+        </div>
+        <div class="space space731" >
+          <input nbInput class="content-title-txt size-xl-medium" placeholder="Title" type="text" shape="rectangle" uiValueUpdate="contentTitleTxt" status="basic" [ngModel]="value6">
+        </div>
+      </div>
+      <div class="space space67111111" >
+        <div class="space space74" >
+          <p class="text27 text-undefined text-alignment-left text-transform-none paragraph">Content</p>
+        </div>
+        <div class="space space741" >
+          <input nbInput class="content-txt size-xl-medium" placeholder="Content" type="text" shape="rectangle" uiValueUpdate="contentTxt" status="basic" [ngModel]="value7">
+        </div>
+      </div>
+      <div class="space space671111111" >
+        <div class="space space75" >
+          <p class="text28 text-undefined text-alignment-left text-transform-none paragraph">Link</p>
+        </div>
+        <div class="space space751" >
+          <input nbInput class="link-txt size-xl-medium" placeholder="Link" type="text" shape="rectangle" uiValueUpdate="linkTxt" status="basic" [ngModel]="value8">
+        </div>
+      </div>
+      <div class="space space6711111111" >
+        <div class="space space76" >
+          <p class="text29 text-undefined text-alignment-left text-transform-none paragraph">Thumbnail image URL</p>
+        </div>
+        <div class="space space761" >
+          <input nbInput class="thumbnail-image-url-txt size-xl-medium" placeholder="Thumbnail image URL" type="text" shape="rectangle" uiValueUpdate="thumbnailImageUrlTxt" status="basic" [ngModel]="value9">
+        </div>
+      </div>
+      <div class="space space67111111111" >
+        
+      </div>
+    </div>
+  </nb-card-body>
+
+  <nb-card-footer>
+    <div class="space space66" >
+      <div class="space space78" >
+        <button nbButton class="save-promotion-btn size-xl-medium" appearance="filled" status="primary" (click)="savePromotion($event)">
+          <nb-icon class="icon btn-icon" icon="save"></nb-icon>
+          <span>Save</span>
+        </button>
+      </div>
+      <div class="space space781" >
+        <button nbButton class="promotion-edit-cancel-btn size-xl-medium" appearance="filled" status="warning">
+          <nb-icon class="icon btn-icon" icon="close"></nb-icon>
+          <span>Cancel</span>
+        </button>
+      </div>
+    </div>
+  </nb-card-footer>
+</nb-card>

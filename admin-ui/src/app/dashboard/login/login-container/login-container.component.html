@@ -1,0 +1,24 @@
+<nb-card class="login-container">
+  <nb-card-header>
+    <app-space120></app-space120>
+  </nb-card-header>
+
+  <nb-card-body>
+    <div class="space sign-up-form" >
+      <label class="text40 text-basic label">Email</label>
+      <input nbInput class="login-username-txt size-xl-medium" placeholder="" type="text" shape="rectangle" uiValueUpdate="loginUsernameTxt" status="basic" [(ngModel)]="username">
+      <label class="text41 text-basic label">Password</label>
+      <input nbInput class="login-password-txt size-xl-medium" placeholder="" type="password" shape="rectangle" uiValueUpdate="loginPasswordTxt" status="basic" [(ngModel)]="password">
+      <a href="" target="_blank"  class="link text-primary">Don't have an account? Sign up</a>
+    </div>
+  </nb-card-body>
+
+  <nb-card-footer>
+    <div class="space space121" >
+      <button nbButton class="button23 size-xl-medium" appearance="filled" status="success" (click)="login()">
+        <nb-icon class="icon btn-icon" icon="star"></nb-icon>
+        <span>Login</span>
+      </button>
+    </div>
+  </nb-card-footer>
+</nb-card>

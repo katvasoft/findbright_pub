@@ -1,0 +1,125 @@
+:host {
+
+  width: 100%;
+  height: auto;
+  display: block;
+  
+  .heading24 {
+    font-size: 18px;
+    line-height: initial;
+    color: var(--text-basic-color);
+  }
+    
+  .space115 {
+    height: auto;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .feedback-txt {
+    width: 100%;
+    resize: both;
+  }
+    
+  .space116 {
+    height: auto;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .save-feedback-btn {
+    width: auto;
+    flex-direction: row;
+    > nb-icon.btn-icon.icon {
+      margin: 0 .75rem 0 0;
+    }
+    
+    span {
+      display: inline;
+    }
+    
+    > nb-icon {
+      display: inline;
+    }
+  }
+    
+  .space118 {
+    height: auto;
+    min-height: 2rem;
+    width: 15%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .cancel-feed-edit-btn {
+    width: auto;
+    flex-direction: row;
+    > nb-icon.btn-icon.icon {
+      margin: 0 .75rem 0 0;
+    }
+    
+    span {
+      display: inline;
+    }
+    
+    > nb-icon {
+      display: inline;
+    }
+  }
+    
+  .space1181 {
+    height: auto;
+    min-height: 2rem;
+    width: 15%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .space117 {
+    height: auto;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .feedback-card {
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-basic-color-1);
+    background-size: auto;
+  }
+  
+}

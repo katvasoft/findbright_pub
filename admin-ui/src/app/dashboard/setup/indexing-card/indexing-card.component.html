@@ -1,0 +1,43 @@
+<nb-card class="indexing-card">
+  <nb-card-header>
+    <div class="space index-hdr" >
+      <h6 class="heading12 text-undefined text-alignment-left text-transform-none">Indexing and recrawl</h6>
+    </div>
+  </nb-card-header>
+
+  <nb-card-body>
+    <div class="space space37" >
+      <ng-container *ngFor="let item of sequenceSpace36$ | async; index as index">
+        <div class="space space36" >
+          <div class="space space124" >
+            <span class="text11 text-undefined text-alignment-left text-transform-none subtitle">Domain:</span>
+          </div>
+          <div class="space space1241" >
+            <p class="text12 text-undefined text-alignment-left text-transform-none paragraph">{{ text(item) }}</p>
+          </div>
+          <div class="space space12411" >
+            <span class="text42 text-undefined text-alignment-left text-transform-none subtitle">Last crawl:</span>
+          </div>
+          <div class="space space124111" >
+            <p class="text43 text-undefined text-alignment-left text-transform-none paragraph">{{ text1(item) }}</p>
+          </div>
+          <div class="space space1241111" >
+            <button nbButton class="button size-xl-medium" appearance="filled" status="danger" (click)="removeDomain($event,item)">
+              <nb-icon class="icon btn-icon" icon="trash"></nb-icon>
+              <span>Button</span>
+            </button>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </nb-card-body>
+
+  <nb-card-footer>
+    <div class="space space38" >
+      <button nbButton class="re-crawl-btn size-xl-medium" appearance="filled" status="primary">
+        <nb-icon class="icon btn-icon" icon="search"></nb-icon>
+        <span>Recrawl</span>
+      </button>
+    </div>
+  </nb-card-footer>
+</nb-card>

@@ -1,0 +1,177 @@
+:host {
+
+  width: 100%;
+  height: auto;
+  display: block;
+  
+  .heading15 {
+    font-size: 18px;
+    line-height: initial;
+    color: var(--text-basic-color);
+  }
+    
+  .space52 {
+    height: auto;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .text16 {
+    font-size: 15px;
+    line-height: initial;
+    color: var(--text-basic-color);
+  }
+    
+  .space56 {
+    height: auto;
+    min-height: 2rem;
+    width: 10%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .text17 {
+    font-size: 15px;
+    line-height: initial;
+    color: var(--text-basic-color);
+  }
+    
+  .space561 {
+    height: auto;
+    min-height: 2rem;
+    width: 25%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .button1 {
+    margin: 0 5px 0 0;
+    width: auto;
+    flex-direction: row;
+    > nb-icon.btn-icon.icon {
+      margin: 0;
+    }
+    
+    span {
+      display: none;
+    }
+    
+    > nb-icon {
+      display: inline;
+    }
+  }
+    
+  .button2 {
+    margin: 0 0 0 5px;
+    width: auto;
+    flex-direction: row;
+    > nb-icon.btn-icon.icon {
+      margin: 0;
+    }
+    
+    span {
+      display: none;
+    }
+    
+    > nb-icon {
+      display: inline;
+    }
+  }
+    
+  .space5611 {
+    height: auto;
+    min-height: 2rem;
+    width: 65%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .space55 {
+    height: auto;
+    min-height: 2rem;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0 0 5px 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .space53 {
+    height: auto;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .add-promotion-btn {
+    width: auto;
+    flex-direction: row;
+    > nb-icon.btn-icon.icon {
+      margin: 0 .75rem 0 0;
+    }
+    
+    span {
+      display: inline;
+    }
+    
+    > nb-icon {
+      display: inline;
+    }
+  }
+    
+  .space54 {
+    height: auto;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .promotions-list-card {
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-basic-color-1);
+    background-size: auto;
+  }
+  
+}

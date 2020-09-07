@@ -1,0 +1,42 @@
+<nb-card class="user-list-component">
+  <nb-card-header>
+    <div class="space space80" >
+      <h6 class="heading17 text-undefined text-alignment-left text-transform-none">Users</h6>
+    </div>
+  </nb-card-header>
+
+  <nb-card-body>
+    <div class="space space81" >
+      <ng-container *ngFor="let item of sequenceSpace62$ | async; index as index">
+        <div class="space space62" >
+          <div class="space space63" >
+            <span class="text20 text-undefined text-alignment-left text-transform-none subtitle">{{ text(item) }}</span>
+          </div>
+          <div class="space space631" >
+            <span class="text44 text-undefined text-alignment-left text-transform-none subtitle">{{ text1(item) }}</span>
+          </div>
+          <div class="space space6311" >
+            
+          </div>
+          <div class="space space63111" >
+            <button nbButton class="button4 size-xl-medium" appearance="filled" status="danger" (click)="removeUser($event,item)">
+              <nb-icon class="icon btn-icon" icon="trash"></nb-icon>
+              <span>Button</span>
+            </button>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </nb-card-body>
+
+  <nb-card-footer>
+    <div class="space space82" >
+      <div class="space space83" >
+        <button nbButton class="add-new-user-btn size-xl-medium" appearance="filled" status="primary">
+          <nb-icon class="icon btn-icon" icon="person-add"></nb-icon>
+          <span>Add new</span>
+        </button>
+      </div>
+    </div>
+  </nb-card-footer>
+</nb-card>

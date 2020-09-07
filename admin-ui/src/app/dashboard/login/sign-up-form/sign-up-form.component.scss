@@ -1,0 +1,49 @@
+:host {
+
+  height: auto;
+  flex-grow: 1;
+  flex-basis: 0;
+  display: block;
+  
+  .text40 {
+    font-size: 12px;
+    line-height: initial;
+    margin: 0 0 4px 0;
+  }
+    
+  .login-username-txt {
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+    
+  .text41 {
+    font-size: 12px;
+    line-height: initial;
+    margin: 0 0 4px 0;
+  }
+    
+  .login-password-txt {
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+    
+  .link {
+    font-size: 15px;
+    line-height: initial;
+  }
+    
+  .sign-up-form {
+    height: 100%;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+  
+}

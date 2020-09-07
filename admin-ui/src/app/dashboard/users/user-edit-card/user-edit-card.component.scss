@@ -1,0 +1,319 @@
+:host {
+
+  width: 100%;
+  height: auto;
+  display: block;
+  
+  .heading18 {
+    font-size: 18px;
+    line-height: initial;
+    color: var(--text-basic-color);
+  }
+    
+  .space84 {
+    height: auto;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .text30 {
+    font-size: 15px;
+    line-height: initial;
+    color: var(--text-basic-color);
+  }
+    
+  .space88 {
+    height: auto;
+    min-height: 2rem;
+    width: 20%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .username-txt {
+    width: 50%;
+  }
+    
+  .space881 {
+    height: auto;
+    min-height: 2rem;
+    width: 70%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .space87 {
+    height: auto;
+    min-height: 2rem;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0 0 6px 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .text31 {
+    font-size: 15px;
+    line-height: initial;
+    color: var(--text-basic-color);
+  }
+    
+  .space89 {
+    height: auto;
+    min-height: 2rem;
+    width: 20%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .email-txt {
+    width: 50%;
+  }
+    
+  .space891 {
+    height: auto;
+    min-height: 2rem;
+    width: 70%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .space871 {
+    height: auto;
+    min-height: 2rem;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0 0 6px 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .text32 {
+    font-size: 15px;
+    line-height: initial;
+    color: var(--text-basic-color);
+  }
+    
+  .space90 {
+    height: auto;
+    min-height: 2rem;
+    width: 20%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .pword-txt {
+    width: 50%;
+  }
+    
+  .space901 {
+    height: auto;
+    min-height: 2rem;
+    width: 70%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .space8711 {
+    height: auto;
+    min-height: 2rem;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0 0 6px 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .text33 {
+    font-size: 15px;
+    line-height: initial;
+    color: var(--text-basic-color);
+  }
+    
+  .space91 {
+    height: auto;
+    min-height: 2rem;
+    width: 20%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .pword-again-txt {
+    width: 50%;
+  }
+    
+  .space911 {
+    height: auto;
+    min-height: 2rem;
+    width: 70%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .space87111 {
+    height: auto;
+    min-height: 2rem;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .space85 {
+    height: auto;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .save-user-btn {
+    width: auto;
+    flex-direction: row;
+    > nb-icon.btn-icon.icon {
+      margin: 0 .75rem 0 0;
+    }
+    
+    span {
+      display: inline;
+    }
+    
+    > nb-icon {
+      display: inline;
+    }
+  }
+    
+  .space92 {
+    height: auto;
+    min-height: 2rem;
+    width: 15%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .cancel-user-edit-btn {
+    width: auto;
+    flex-direction: row;
+    > nb-icon.btn-icon.icon {
+      margin: 0 .75rem 0 0;
+    }
+    
+    span {
+      display: inline;
+    }
+    
+    > nb-icon {
+      display: inline;
+    }
+  }
+    
+  .space921 {
+    height: auto;
+    min-height: 2rem;
+    width: 15%;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .space86 {
+    height: auto;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .user-edit-card {
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-basic-color-1);
+    background-size: auto;
+  }
+  
+}

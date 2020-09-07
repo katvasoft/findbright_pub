@@ -1,0 +1,86 @@
+:host {
+
+  width: calc(100% - 6px);
+  height: auto;
+  margin: 0 6px 0 0;
+  display: block;
+  
+  .heading19 {
+    font-size: 18px;
+    line-height: initial;
+    color: var(--text-info-color);
+  }
+    
+  .space97 {
+    height: auto;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .text34 {
+    font-size: 15px;
+    line-height: initial;
+    color: var(--text-basic-color);
+  }
+    
+  .space98 {
+    height: auto;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .button18 {
+    width: auto;
+    flex-direction: row;
+    > nb-icon.btn-icon.icon {
+      margin: 0 .75rem 0 0;
+    }
+    
+    span {
+      display: inline;
+    }
+    
+    > nb-icon {
+      display: inline;
+    }
+  }
+    
+  .space99 {
+    height: auto;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .plan-card {
+    width: 100%;
+    height: 100%;
+    margin: 0 6px 0 0;
+    background-color: var(--background-basic-color-1);
+    background-size: auto;
+  }
+  
+}

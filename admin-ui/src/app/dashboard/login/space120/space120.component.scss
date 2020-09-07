@@ -1,0 +1,58 @@
+:host {
+
+  height: 100%;
+  flex-grow: 1;
+  flex-basis: 0;
+  display: block;
+  
+  .image {
+    margin: 0 8px 0 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+    
+  .space122 {
+    height: auto;
+    min-height: 2rem;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .heading25 {
+    font-size: 22px;
+    line-height: initial;
+    margin: 0;
+  }
+    
+  .space123 {
+    height: auto;
+    min-height: 2rem;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .space120 {
+    height: 100%;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: flex-start;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+  
+}

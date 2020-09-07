@@ -1,0 +1,34 @@
+<nb-card class="card">
+  <nb-card-header>
+    <div class="space space57" >
+      <h6 class="heading26 text-undefined text-alignment-left text-transform-none">Synonyms</h6>
+    </div>
+  </nb-card-header>
+
+  <nb-card-body>
+    <div class="space space58" >
+      <ng-container *ngFor="let item of sequenceSpace60$ | async; index as index">
+        <div class="space space60" >
+          <div class="space space61" >
+            <span class="text18 text-undefined text-alignment-left text-transform-none subtitle">Synonyms:</span>
+          </div>
+          <div class="space space6111" >
+            <p class="text19 text-undefined text-alignment-left text-transform-none paragraph">{{ text(item) }}</p>
+          </div>
+          <div class="space space61111" >
+            <button nbButton class="button3 size-xl-medium" appearance="filled" status="danger" (click)="removeSynonym($event,item)">
+              <nb-icon class="icon btn-icon" icon="trash"></nb-icon>
+              <span>Button</span>
+            </button>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </nb-card-body>
+
+  <nb-card-footer>
+    <div class="space space59" >
+      
+    </div>
+  </nb-card-footer>
+</nb-card>

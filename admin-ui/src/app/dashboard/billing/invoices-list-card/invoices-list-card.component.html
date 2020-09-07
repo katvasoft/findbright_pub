@@ -1,0 +1,19 @@
+<nb-card class="invoices-list-card">
+  <nb-card-header>
+    <div class="space space112" >
+      <h6 class="heading23 text-undefined text-alignment-left text-transform-none">Your invoices</h6>
+    </div>
+  </nb-card-header>
+
+  <nb-card-body>
+    <div class="space space113" >
+      <app-smart-table class="invoices-table" (select)="updateUiInvoicesTableSelectedRow($event)" (delete)="updateUiInvoicesTableDeletedRow($event)" (create)="updateUiInvoicesTableNewRow($event)" (edit)="updateUiInvoicesTableEditedRow($event)" [source]="source" [settings]="settings"></app-smart-table>
+    </div>
+  </nb-card-body>
+
+  <nb-card-footer>
+    <div class="space space114" >
+      
+    </div>
+  </nb-card-footer>
+</nb-card>

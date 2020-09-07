@@ -1,0 +1,39 @@
+:host {
+
+  height: auto;
+  flex-grow: 1;
+  flex-basis: 0;
+  display: block;
+  
+  .synonym-list-txt {
+    width: 100%;
+  }
+    
+  .space50 {
+    height: auto;
+    min-height: 2rem;
+    width: 95%;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .synonym-edit-text {
+    height: 100%;
+    min-height: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+  
+}

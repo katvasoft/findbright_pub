@@ -1,0 +1,195 @@
+:host {
+  app-header {
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .header-hidden ::ng-deep nb-sidebar:not(.fixed) > .main-container {
+    top: 0;
+    min-height: 100%;
+    height: 100%;
+  }
+
+  nb-layout-header.fixed ~ .layout-container nb-sidebar .main-container {
+    height: var(--sidebar-height);
+  }
+
+  .header-hidden ::ng-deep nb-sidebar.fixed {
+    top: 0;
+
+    & > .main-container {
+      top: 0;
+      height: 100%;
+    }
+  }
+  
+  ::ng-deep nb-layout-header.fixed ~ .layout-container > nb-sidebar > .main-container {
+    height: var(--sidebar-height);
+  }
+}
+
+.image7 {
+  margin: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  object-fit: fill;
+}
+
+.button-link {
+  margin: 0 5px 0 10px;
+  width: auto;
+  flex-direction: row;
+  > nb-icon.btn-icon.icon {
+    margin: 0;
+  }
+  
+  span {
+    display: inline;
+  }
+  
+  > nb-icon {
+    display: none;
+  }
+}
+
+.button-link1 {
+  margin: 0 5px;
+  width: auto;
+  flex-direction: row;
+  > nb-icon.btn-icon.icon {
+    margin: 0;
+  }
+  
+  span {
+    display: inline;
+  }
+  
+  > nb-icon {
+    display: none;
+  }
+}
+
+.button-link2 {
+  margin: 0 5px;
+  width: auto;
+  flex-direction: row;
+  > nb-icon.btn-icon.icon {
+    margin: 0;
+  }
+  
+  span {
+    display: inline;
+  }
+  
+  > nb-icon {
+    display: none;
+  }
+}
+
+.button-link3 {
+  margin: 0 5px;
+  width: auto;
+  flex-direction: row;
+  > nb-icon.btn-icon.icon {
+    margin: 0;
+  }
+  
+  span {
+    display: inline;
+  }
+  
+  > nb-icon {
+    display: none;
+  }
+}
+
+.button-link4 {
+  margin: 0 0 0 5px;
+  width: auto;
+  flex-direction: row;
+  > nb-icon.btn-icon.icon {
+    margin: 0;
+  }
+  
+  span {
+    display: inline;
+  }
+  
+  > nb-icon {
+    display: none;
+  }
+}
+
+.feedback-link {
+  width: auto;
+  flex-direction: row;
+  > nb-icon.btn-icon.icon {
+    margin: 0;
+  }
+  
+  span {
+    display: inline;
+  }
+  
+  > nb-icon {
+    display: none;
+  }
+}
+
+.space35 {
+  height: auto;
+  min-height: 2rem;
+  flex-grow: 1;
+  flex-basis: 0;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  overflow: visible;
+  background-color: unset;
+  background-size: auto;
+}
+
+.space5 {
+  height: 100%;
+  flex-grow: 1;
+  flex-basis: 0;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  overflow: visible;
+  background-color: unset;
+  background-size: auto;
+}
+
+.header {
+  > ::ng-deep nav {
+    padding: 16px;
+  }
+  background-color: var(--background-basic-color-1);
+}
+
+.menu {
+  width: 100%;
+  height: auto;
+}
+
+.sidebar-space {
+  height: 100%;
+  width: 100%;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow: auto;
+  background-color: unset;
+  background-size: auto;
+}
+
+.sidebar {
+  ::ng-deep div.scrollable {
+    padding: 16px;
+  }
+  background-color: var(--background-basic-color-1);
+}

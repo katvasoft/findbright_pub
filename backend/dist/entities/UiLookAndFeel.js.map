@@ -1,0 +1,1 @@
+{"version":3,"file":"UiLookAndFeel.js","sourceRoot":"","sources":["../../src/entities/UiLookAndFeel.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,mCAA+D;AAG/D;IAAA;IAcA,CAAC;IAXG;QADC,gCAAsB,CAAC,MAAM,CAAC;;6CACpB;IAGX;QADC,gBAAM,EAAE;;oDACU;IAGnB;QADC,gBAAM,EAAE;;yDACe;IAGxB;QADC,gBAAM,EAAE;;4DACkB;IAZlB,aAAa;QADzB,gBAAM,EAAE;OACI,aAAa,CAczB;IAAD,oBAAC;CAAA,AAdD,IAcC;AAdY,sCAAa"}

@@ -1,0 +1,41 @@
+<nb-card class="promotions-list-card">
+  <nb-card-header>
+    <div class="space space52" >
+      <h6 class="heading15 text-undefined text-alignment-left text-transform-none">Promotions</h6>
+    </div>
+  </nb-card-header>
+
+  <nb-card-body>
+    <div class="space space53" >
+      <ng-container *ngFor="let item of sequenceSpace55$ | async; index as index">
+        <div class="space space55" >
+          <div class="space space56" >
+            <span class="text16 text-undefined text-alignment-left text-transform-none subtitle">Promotion:</span>
+          </div>
+          <div class="space space561" >
+            <p class="text17 text-undefined text-alignment-left text-transform-none paragraph">{{ text(item) }}</p>
+          </div>
+          <div class="space space5611" >
+            <button nbButton class="button1 size-xl-medium" appearance="filled" status="primary">
+              <nb-icon class="icon btn-icon" icon="edit"></nb-icon>
+              <span>Button</span>
+            </button>
+            <button nbButton class="button2 size-xl-medium" appearance="filled" status="danger">
+              <nb-icon class="icon btn-icon" icon="trash"></nb-icon>
+              <span>Button</span>
+            </button>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </nb-card-body>
+
+  <nb-card-footer>
+    <div class="space space54" >
+      <button nbButton class="add-promotion-btn size-xl-medium" appearance="filled" status="primary">
+        <nb-icon class="icon btn-icon" icon="plus"></nb-icon>
+        <span>Add promotion</span>
+      </button>
+    </div>
+  </nb-card-footer>
+</nb-card>

@@ -1,0 +1,28 @@
+<nb-card class="RegisterContainer register-container">
+  <nb-card-header>
+    <app-space125></app-space125>
+  </nb-card-header>
+
+  <nb-card-body>
+    <div class="space SignUpForm1 sign-up-form1" >
+      <label class="Text45 text45 text-basic label">Username</label>
+      <input nbInput class="Input input size-xl-medium" placeholder="" type="text" shape="rectangle" status="basic" [(ngModel)]="username">
+      <label class="Text46 text46 text-basic label">Email</label>
+      <input nbInput class="Input1 input1 size-xl-medium" placeholder="" type="text" shape="rectangle" status="basic" [(ngModel)]="email">
+      <label class="Text46 text46 text-basic label">Account name</label>
+      <input nbInput class="Input1 input1 size-xl-medium" placeholder="" type="text" shape="rectangle" status="basic" [(ngModel)]="accountName">
+      <label class="Text47 text47 text-basic label">Password</label>
+      <input nbInput class="Input2 input2 size-xl-medium" placeholder="" type="password" shape="rectangle" status="basic" [(ngModel)]="password">
+      <a href="" target="_blank"  class="Link1 link1 text-primary">Already have an account? Sign in</a>
+    </div>
+  </nb-card-body>
+
+  <nb-card-footer>
+    <div class="space Space126 space126" >
+      <button nbButton class="Button5 button5 size-xl-medium" appearance="filled" status="success" (click)="register()">
+        <nb-icon class="icon btn-icon" icon="star"></nb-icon>
+        <span>Register</span>
+      </button>
+    </div>
+  </nb-card-footer>
+</nb-card>

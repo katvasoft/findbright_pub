@@ -1,0 +1,74 @@
+:host {
+
+  height: 100%;
+  flex-grow: 1;
+  flex-basis: 0;
+  display: block;
+  
+  .heading4 {
+    font-size: 22px;
+    line-height: initial;
+    color: var(--text-basic-color);
+  }
+    
+  .space19 {
+    height: auto;
+    min-height: 2rem;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .heading6 {
+    font-size: 18px;
+    line-height: initial;
+    color: var(--text-basic-color);
+  }
+    
+  .space20 {
+    height: auto;
+    min-height: 2rem;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  .space10 {
+    height: 100%;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    overflow: visible;
+    background-color: unset;
+    background-size: auto;
+  }
+    
+  @media (max-width: 1024px) {
+    height: auto;
+    flex-grow: 1;
+    flex-basis: 0;
+    
+    .space10 {
+      min-height: 2rem;
+    }
+  }
+    
+  @media (max-width: 320px) {
+    flex-grow: 1;
+    
+    .space10 {
+      justify-content: space-between;
+    }
+  }
+  
+}

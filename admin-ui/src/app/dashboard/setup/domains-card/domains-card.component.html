@@ -1,0 +1,27 @@
+<nb-card class="domains-card">
+  <nb-card-header>
+    <div class="space space7" >
+      <h6 class="heading11 text-undefined text-alignment-left text-transform-none">Domains</h6>
+    </div>
+  </nb-card-header>
+
+  <nb-card-body>
+    <div class="space space8" >
+      <div class="space space2" >
+        <span class="text10 text-undefined text-alignment-left text-transform-none caption">Domains lorem ipsum</span>
+      </div>
+      <div class="space domain-component" >
+        <input nbInput class="domain-name-txt size-xl-medium" placeholder="Domain name" type="text" shape="rectangle" uiValueUpdate="domainNameTxt" status="basic" [ngModel]="value">
+      </div>
+    </div>
+  </nb-card-body>
+
+  <nb-card-footer>
+    <div class="space space31" >
+      <button nbButton class="add-new-domain-btn size-xl-medium" appearance="filled" status="primary" (click)="saveDomain($event)">
+        <nb-icon class="icon btn-icon" icon="plus"></nb-icon>
+        <span>Add new domain</span>
+      </button>
+    </div>
+  </nb-card-footer>
+</nb-card>

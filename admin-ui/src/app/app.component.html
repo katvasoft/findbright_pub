@@ -1,0 +1,45 @@
+<nb-layout withScroll [class.header-hidden]="!(layout$ | async)?.header">
+
+  <nb-layout-header *ngIf="(layout$ | async)?.header" class="header">
+    <div class="space space5" >
+      <img class="image7" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB2NOYEVAvkEen65Agj2fFeGV88-r_hJm3mL4nPChzz_ih9NpV">
+      <div class="space space35" >
+        <a nbButton routerLink="/home" *ngIf="token$ | async" class="button-link size-xl-small" appearance="ghost" status="primary">
+          <nb-icon class="icon btn-icon" icon="star"></nb-icon>
+          <span>Dashboard</span>
+        </a>
+        <a nbButton routerLink="home/setup" *ngIf="token$ | async" class="button-link1 size-xl-small" appearance="ghost" status="primary">
+          <nb-icon class="icon btn-icon" icon="star"></nb-icon>
+          <span>Setup</span>
+        </a>
+        <a nbButton routerLink="home/resultMgm" *ngIf="token$ | async" class="button-link2 size-xl-small" appearance="ghost" status="primary">
+          <nb-icon class="icon btn-icon" icon="star"></nb-icon>
+          <span>Result management</span>
+        </a>
+        <a nbButton routerLink="home/users" *ngIf="token$ | async" class="button-link3 size-xl-small" appearance="ghost" status="primary">
+          <nb-icon class="icon btn-icon" icon="star"></nb-icon>
+          <span>Users</span>
+        </a>
+        <a nbButton routerLink="home/billing" *ngIf="token$ | async" class="button-link4 size-xl-small" appearance="ghost" status="primary">
+          <nb-icon class="icon btn-icon" icon="star"></nb-icon>
+          <span>billing</span>
+        </a>
+        <a nbButton routerLink="home/feedback" *ngIf="token$ | async" class="feedback-link size-xl-small" appearance="ghost" status="primary">
+          <nb-icon class="icon btn-icon" icon="star"></nb-icon>
+          <span>feedback</span>
+        </a>
+      </div>
+    </div>
+  </nb-layout-header>
+
+  <nb-sidebar *ngIf="(layout$ | async)?.sidebar" class="sidebar" responsive="true" [collapsedBreakpoints]="['xs', 'is', 'sm']" [compactedBreakpoints]="[]">
+    <div class="space sidebar-space" >
+      <nb-menu class="menu" [items]="items"></nb-menu>
+    </div>
+  </nb-sidebar>
+
+  <nb-layout-column [style.padding]="padding$ | async">
+    <router-outlet></router-outlet>
+  </nb-layout-column>
+
+</nb-layout>

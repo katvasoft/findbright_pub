@@ -1,0 +1,61 @@
+<nb-card class="user-edit-card">
+  <nb-card-header>
+    <div class="space space84" >
+      <h6 class="heading18 text-undefined text-alignment-left text-transform-none">User edit</h6>
+    </div>
+  </nb-card-header>
+
+  <nb-card-body>
+    <div class="space space85" >
+      <div class="space space87" >
+        <div class="space space88" >
+          <p class="text30 text-undefined text-alignment-left text-transform-none paragraph">Username</p>
+        </div>
+        <div class="space space881" >
+          <input nbInput class="username-txt size-xl-medium" placeholder="Username" type="text" shape="rectangle" uiValueUpdate="usernameTxt" status="basic" [ngModel]="value">
+        </div>
+      </div>
+      <div class="space space871" >
+        <div class="space space89" >
+          <p class="text31 text-undefined text-alignment-left text-transform-none paragraph">Email</p>
+        </div>
+        <div class="space space891" >
+          <input nbInput class="email-txt size-xl-medium" placeholder="email" type="email" shape="rectangle" uiValueUpdate="emailTxt" status="basic" [ngModel]="value1">
+        </div>
+      </div>
+      <div class="space space8711" >
+        <div class="space space90" >
+          <p class="text32 text-undefined text-alignment-left text-transform-none paragraph">Password</p>
+        </div>
+        <div class="space space901" >
+          <input nbInput class="pword-txt size-xl-medium" placeholder="Password" type="password" shape="rectangle" uiValueUpdate="pwordTxt" status="basic" [ngModel]="value2">
+        </div>
+      </div>
+      <div class="space space87111" >
+        <div class="space space91" >
+          <p class="text33 text-undefined text-alignment-left text-transform-none paragraph">Password again</p>
+        </div>
+        <div class="space space911" >
+          <input nbInput class="pword-again-txt size-xl-medium" placeholder="Password again" type="password" shape="rectangle" uiValueUpdate="pwordAgainTxt" status="basic" [ngModel]="value3">
+        </div>
+      </div>
+    </div>
+  </nb-card-body>
+
+  <nb-card-footer>
+    <div class="space space86" >
+      <div class="space space92" >
+        <button nbButton class="save-user-btn size-xl-medium" appearance="filled" status="primary" (click)="saveUser($event)">
+          <nb-icon class="icon btn-icon" icon="save"></nb-icon>
+          <span>Save</span>
+        </button>
+      </div>
+      <div class="space space921" >
+        <button nbButton class="cancel-user-edit-btn size-xl-medium" appearance="filled" status="warning">
+          <nb-icon class="icon btn-icon" icon="close-outline"></nb-icon>
+          <span>Cancel</span>
+        </button>
+      </div>
+    </div>
+  </nb-card-footer>
+</nb-card>
